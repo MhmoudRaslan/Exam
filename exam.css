@@ -1,0 +1,73 @@
+body {
+  background: #fafafa;
+  font-family: Arial, sans-serif;
+}
+h1 {
+  text-align: center;
+}
+.exam-container {
+  max-width: 400px;
+  margin: 40px auto;
+  background: #fff;
+  border-radius: 16px;
+  box-shadow: 0 2px 8px #0001;
+  padding: 32px 24px 24px 24px;
+  text-align: center;
+}
+p {
+  text-align: center;
+  font-family: "Edu NSW ACT Cursive", cursive;
+}
+
+#options {
+  margin: 24px 0;
+}
+.option {
+  display: block;
+  width: 90%;
+  margin: 12px auto;
+  padding: 16px;
+  font-size: 1.1em;
+  border-radius: 32px;
+  border: 2px solid #ccc;
+  background: #f9f9f9;
+  cursor: pointer;
+  transition: background 0.2s, border 0.2s;
+  font-family: "Edu NSW ACT Cursive", cursive;
+}
+.option:disabled {
+  background: #eee;
+  color: #aaa;
+  cursor: not-allowed;
+}
+.option:hover:not(:disabled) {
+  background: #e0f7fa;
+  border-color: #26c6da;
+}
+#progressRing {
+  margin: 20px auto 0 auto;
+  display: block;
+}
+#progressText {
+  margin-top: 10px;
+  font-size: 1em;
+  text-align: center;
+}
+#timerDisplay {
+  display: block;
+  margin: 10px 0;
+  font-weight: bold;
+}
+img {
+  width: 200px;
+  height: auto;
+  border-radius: 8px;
+  margin: 20px auto 0 auto;
+  display: block;
+}
+span {
+  text-align: center;
+}
+input[type="button"] {
+  margin: 20px auto;
+}
